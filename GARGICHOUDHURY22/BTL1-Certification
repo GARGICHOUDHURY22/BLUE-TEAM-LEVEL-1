@@ -1,0 +1,153 @@
+Blue Team Level 1 (BTL1) – Security Blue Team
+
+Repository: `GARGICHOUDHURY22/BTL1-Certification`
+
+Overview
+
+The Blue Team Level 1 (BTL1) certification from **Security Blue Team** is a hands-on, entry-level blue team certification that rigorously covers foundational cybersecurity principles across digital forensics, threat intelligence, phishing analysis, SIEM, and incident response. This repository documents my journey through the certification, including labs, tools, challenges, skills gained, and how I applied the concepts in a simulated SOC environment.
+
+Status: Completed
+Exam Format: 100% Hands-On Practical
+Total Topics Covered: 303
+Labs Completed: 25
+Quizzes Taken: 34
+Tools Used: 30+ industry-relevant tools (see below)
+
+---
+
+Certification Structure
+
+BTL1 is divided into the following key domains:
+
+| Domain                   | Description                                                             | Key Skills                                                        |
+| ------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------- |
+|    Security Fundamentals | Core cyber defense concepts and management principles                   | Networking, Controls, Risk, Compliance, Active Directory          |
+|    Phishing Analysis     | End-to-end phishing investigation pipeline                              | Header analysis, OSINT, VirusTotal, PhishTool, Malware sandboxing |
+|    Threat Intelligence   | Understanding adversaries and intelligence disciplines                  | MISP, ATT\&CK, Strategic/Tactical/Operational TI                  |
+|    Digital Forensics     | In-depth forensic investigations on Windows, Linux, browser, and memory | FTK Imager, Autopsy, Volatility, File carving                     |
+|    SIEM                  | Log aggregation, correlation, and threat detection using Splunk         | SIEM architecture, Sigma rules, Event Viewer                      |
+|    Incident Response     | Structured, real-world IR using PICERL and MITRE ATT\&CK                | TheHive5, Wireshark, Case management, Attack lifecycle tracking   |
+
+---
+
+Tools & Technologies Used
+
+A total of 30+ tools were used throughout the labs and hands-on exam:
+
+Forensics & Analysis: Autopsy, FTK Imager, Volatility, PECmd, Scalpel, KAPE, Windows File Analyzer, Browser History Viewer/Capturer, JumpList Explorer
+Threat Intelligence: MISP, OpenCTI, VirusTotal, URL2PNG, WHOis, ISACs
+Phishing Analysis: PhishTool, URLScan, CyberChef, Sandbox Environments
+SIEM & Detection: Splunk, Event Viewer, Sigma, ATT\&CK Navigator
+IR & Case Management: TheHive5, PICERL Framework, Wireshark
+General Tools: PowerShell, Linux CLI, DomainTools
+
+---
+
+Labs Completed & Skills Gained
+
+Digital Forensics Labs (10 Labs)
+
+- Recovered browser artifacts from disk using forensic imaging
+- Extracted deleted files via file carving (Scalpel)
+- Parsed Windows registry and memory dumps (Volatility)
+- Timeline analysis with PECmd and KAPE
+- Learned order of volatility and live response best practices
+
+Phishing Analysis Labs (4 Labs)
+
+- Identified phishing email artifacts in MIME headers
+- Conducted URL redirection tracing (URLScan, CyberChef)
+- Performed file detonation and sandbox analysis
+- Wrote full phishing incident reports using IOC enrichment
+
+Threat Intelligence Labs (1 Lab)
+
+- Researched real-world APT groups using OpenCTI and MITRE ATT\&CK
+- Mapped threat actors to tactics, techniques, and motivations
+
+SIEM Labs (5 Labs)
+
+- Built Splunk queries to correlate multi-source logs
+- Identified lateral movement, login anomalies, and privilege escalation
+- Mapped Sigma rules to MITRE ATT\&CK detections
+
+Incident Response Labs (4 Labs)
+
+- Simulated real-world compromise handling using PICERL framework
+- Case management using TheHive5
+- Analyzed PCAP files and system logs during incident triage
+- Wrote full IR report with containment and lessons learned
+
+---
+
+Challenges Faced & How I Overcame Them
+
+| Challenge                                  | Solution                                                                                 |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------- |
+|   Artifact Confusion   in Memory Forensics | Spent extra time reading Volatility docs and used known-good memory dumps for comparison |
+|   Correlating Logs in Splunk               | Practiced building small queries and gradually linked them using event IDs               |
+|   URL Redirection Chains                   | Visualized steps using CyberChef + URLScan instead of relying solely on WHOis            |
+|   Managing Investigation Scope             | Used case management tools (TheHive5) to logically split findings and prioritize IOCs    |
+
+---
+
+Exam Experience
+
+The BTL1 exam   is fully **practical**, scenario-based, and reflects a Tier 1 SOC Analyst’s typical day. I was presented with:
+
+- Simulated phishing emails
+- Memory and disk images
+- Logs requiring correlation
+- Realistic investigation documentation requirements
+
+The exam tested not just tool knowledge, but analytical thinking, time management, and end-to-end investigation capability. I built timelines, isolated attacker techniques using MITRE ATT\&CK, and submitted a detailed final report — mimicking a real-world SOC workflow.
+
+---
+
+Prerequisites & Recommended Background
+
+While BTL1 is marketed as entry-level, I recommend the following before starting:
+
+| Skill Area              | Level                                               |
+| ----------------------- | --------------------------------------------------- |
+| Networking Fundamentals | Basic (OSI, TCP/IP, ports, protocols)               |
+| Windows OS Internals    | Moderate (registry, log locations, artifacts)       |
+| Scripting               | Optional but helpful (PowerShell basics)            |
+| Soft Skills             | Crucial (report writing, investigation structuring) |
+
+---
+
+Conclusion
+
+Completing BTL1 was a significant step in my Blue Team journey. It gave me real-world, **SOC-ready skills** and the confidence to tackle Tier 1 and Tier 2 analyst roles with a strong foundation in:
+
+End-to-end phishing investigation
+Log analysis and SIEM correlation
+Threat intelligence mapping
+Full-stack digital forensics
+Incident response handling and reporting
+
+---
+
+Highlighted Skills for SOC Roles
+
+* MITRE ATT\&CK Mapping
+* Incident Lifecycle (PICERL, Cyber Kill Chain)
+* SIEM Correlation (Splunk)
+* Memory and Disk Forensics
+* Threat Intelligence Integration
+* Email and URL Analysis
+* Case Management (TheHive5)
+* Detection Engineering (Sigma rules)
+
+---
+Conclusion
+
+The Blue Team Level 1 (BTL1) certification from Security Blue Team was a rigorous, hands-on journey that solidified my foundational skills as a blue teamer. Over the course of multiple interactive labs, quizzes, and real-world simulations, I developed critical expertise in incident response, phishing analysis, threat intelligence, digital forensics, and SIEM log analysis.
+
+What made BTL1 especially valuable was its practical, tool-driven approach. From dissecting phishing emails in PhishTool to carving files with Scalpel, analyzing memory with Volatility, and triaging logs in Splunk, every section reinforced the mindset and methods expected from a Tier 1–2 SOC analyst. I learned to think like a defender, respond like an investigator, and document like a professional.
+
+While some challenges—like correlating logs across time windows or parsing malformed phishing headers—were complex, they helped sharpen my ability to work under pressure with real-world tools. The capstone-style labs mirrored the fast-paced environment of an actual SOC.
+
+This certification wasn’t just academic—it was operational. It gave me not only a wide toolkit but also the confidence to analyze, detect, and report threats with precision and structure. With BTL1 completed, I’m better equipped for real-world roles in cybersecurity and incident response.
+
